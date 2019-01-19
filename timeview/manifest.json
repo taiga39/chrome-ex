@@ -1,8 +1,11 @@
 {
   "manifest_version": 2,
-  "name": "Hello World Extension",
+  "name": "Timeview",
   "version": "1.0",
-  "description": "TIme view",
+  "description": "This product is Time view.",
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
   "browser_action": {
+    "default_title": "",
+    "default_popup": "timeview.html"
   }
 }
